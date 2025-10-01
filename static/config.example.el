@@ -74,3 +74,12 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(setq user-full-name "Baoshan Pang"
+      user-mail-address "pangbw@gmail.com")
+
+(global-visual-line-mode 1)
+
+(after! tramp
+  (setq shell-file-name "/bin/bash"))
+
